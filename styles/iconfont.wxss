@@ -1,0 +1,20 @@
+@font-face {font-family: "iconfont";
+  src: url('//at.alicdn.com/t/font_2136751_9a300ot4d3u.eot?t=1602901168930'); /* IE9 */
+  src: url('//at.alicdn.com/t/font_2136751_9a300ot4d3u.eot?t=1602901168930#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAANcAAsAAAAAB0AAAAMPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCcAqCSIIYATYCJAMICwYABCAFhG0HMhtABsiusHExzBZ0F4zmtXRscVYjJBAgguf3xzfnvvsFJCg5axXiusN1HbfUzc5Qd3IWRsbVEahg9UNcFxIZAScxucLrfzWX+1ACzSsLrDqvSqQQL3sJX2azKem+qiYyJlUvZDELuG494CKFGBVO6HB6pm70mk/cO/2/IT7fXZ7jWNPmxIkBxgEFOPYC7bxACowbxi5wCYsJVOqlAdycW1mHWpnVKhDHXfsEanN6uSUzlAulNQPzcLSjPF1KX8CN8PPxBWYCQVJSsDruHJy1YOK994qL/y/KJwjms4INo8A0gEzsq7VvKcTBaWCVWrBoEGBfmcF7///7/N3+8QiilJVeDboh/54ErvBWf5lARhkOAidGxVHWUN9ovULLmcbfZiU+qafRLVfuMeIfNirbJqgJtz3opis36Un3U6j9z1ve+509u+G+XMe+MTOyu7o9D3y6X9x2udT+0clhHW320om9tNjTlCx2N9hHjWa73OhtN6XbPj77ymi0LpeVYEn3TmdP73jZirG/rEmdERfzv+FD/e8O12wgtufhi3NszeP/wzN/yycDGSPQdgP4o5GOn9xcFbpf9n6+7iWAfTKY0Wupf08bONC5oBFUrM97R6sN7tY00KDnE6pAr45bwQHw/37OFZt//ju+8bs0+GttVQYvb7kQCvs5Qfn9GcN/zskFIAcXWcGU0ZIbSA6quf+sSpX4D7kbvYxVt7xUNJRreTVnmZ4UhXLDZKZPo0SVOZQqt4JKU/zDqzSpVBC5ApMaAUK9eSS1HqBQ74LM9GeUaPWNUvUBRqUDwQmrjEZBfZhOhCw8vURXmUg7JqmPMlfJToMTzopCxiZx4npwdGikGJmniHiOLsmZPSaiUbMJcQ4sR0FgMGbjkZIhRyQuDQ/rujsNKRNCvQ2MnBDEgjJdQgUUI6L98qK+9P5VxJYKnOCWohrvJsISbvXISMfQg5yXR72K7uWYKmdsY6oJDeViRgj5gJUEdtBA5fX1PEQRQ/JH+GMlelQqt698aH1l+HUroJKlSWHXLpQfMul5qhwCAAA=') format('woff2'),
+  url('//at.alicdn.com/t/font_2136751_9a300ot4d3u.woff?t=1602901168930') format('woff'),
+  url('//at.alicdn.com/t/font_2136751_9a300ot4d3u.ttf?t=1602901168930') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('//at.alicdn.com/t/font_2136751_9a300ot4d3u.svg?t=1602901168930#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-gouwuche:before {
+  content: "\e600";
+}

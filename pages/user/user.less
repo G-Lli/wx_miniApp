@@ -1,0 +1,128 @@
+page{
+    background-color: #edece8;
+}
+.user_content{
+    height: 45vh;
+    background-color: var(--themeColor);
+    overflow: hidden;
+    position: relative;
+    .img_content{
+        position: relative;
+        .user_bg{
+            
+            height: 50vh;
+            filter: blur(10rpx);
+        }
+        .img_info{
+            left: 50%;
+            top: 30%;
+            transform: translateX(-50%);
+            position: absolute;
+            text-align: center;
+            .user-icon{
+                height: 160rpx;
+                width: 160rpx;
+                border-radius: 50%;
+            }
+            .user_name{
+                margin-top: 40rpx;
+                text-align: center;
+                color: #ffffff;
+            }
+        }
+    }
+    .user_btn{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        top: 20%;
+        border: 1rpx solid greenyellow;
+        color: greenyellow;
+        font-size: 30rpx;
+        padding: 30rpx;
+        border-radius:10rpx ;
+    }  
+}
+
+
+.user_tap{   
+    
+    position: relative;
+   .user_main{
+    padding-bottom: 50rpx;
+    
+    color: #666;
+    position: absolute;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    top:-40rpx;
+        .his_wrap{
+            background-color: #ffffff;
+            padding: 10rpx 0;           
+            display: flex;
+            navigator{
+        
+                flex: 1;
+                text-align: center;
+                padding: 10rpx 0;
+                .his_num{
+                    color: var(--themeColor);
+                    }
+                .his_name{}
+            }
+        
+        }
+    }
+    .order_wrap{
+        background-color: #ffffff;
+        margin-top: 20rpx;
+        .order_name{
+            padding: 20rpx;
+            border-bottom: 1rpx solid #ccc;
+            font-size: 32rpx;
+        }
+        .order_list{
+            display: flex;
+            navigator{
+                padding: 10rpx 0;
+                text-align: center;
+                flex:1;
+                align-content: center;
+                .order_icon{
+                    color:var(--themeColor)
+                }
+             .order_text{
+                font-size: 32rpx;
+             }   
+            }            
+        }
+    }
+    .adress_wrap{
+        margin-top: 20rpx;
+        background-color: #ffffff;
+        padding: 20rpx;
+        font-size:32rpx;
+    }
+    .mes_wrap{
+
+        margin-top: 20rpx;
+        background-color: #ffffff;
+        font-size:32rpx;
+       .mes_item{
+        padding: 20rpx;
+        border-bottom: 1rpx solid #ccc;
+       }
+       .mes_content{
+           display: flex;
+           justify-content: space-between;
+       }
+
+    }
+    .share_wrap{
+        background-color: #ffffff;
+        margin-top: 20rpx;
+        padding: 20rpx;
+        font-size: 32rpx;
+    } 
+}

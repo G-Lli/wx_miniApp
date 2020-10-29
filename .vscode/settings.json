@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.wxml": "html",
+        "*.wxss": "css"
+    },
+    "editor.fontSize": 20,
+    "less.compile": {
+        "outExt": ".wxss" // 输出文件的后缀,默认为.css
+    }
+}
